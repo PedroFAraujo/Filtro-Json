@@ -1,0 +1,30 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#marca{
+    margin-top: 1rem;
+}
+
+#nome{
+    margin: 1.5rem 0rem;
+}
+
+input[type=submit]{
+    color: black;
+    background-color: white;
+    box-shadow: 3px 3px 3px rgba(255, 255, 255, 0.3);
+    font-size: 1em;
+    margin-bottom: 1rem;
+    width: 18.5rem;
+    height: 1.5rem;
+    border-radius: 0.5rem;
+    border: none;
+    cursor: pointer;
+}
+
+input[type=submit]:hover{
+    box-shadow: 4px 4px 4px rgba(255, 255, 255, 0.3);
+    transform: scale(1.02);
+    transition-duration: 0.5s;
+}
